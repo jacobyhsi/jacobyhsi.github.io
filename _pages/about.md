@@ -21,7 +21,7 @@ Anyone interested in working on generative models feel free to contact me by ema
 
 Email:
 
-‘js2723‘ @ ‘ic.ac.uk‘
+‘y.si23‘ @ ‘imperial.ac.uk‘
 
 ‘jacobyhsi‘ @ ‘ucla.edu‘
 
