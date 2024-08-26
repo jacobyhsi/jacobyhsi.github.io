@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a PhD candidate at [Imperial College London](https://www.imperial.ac.uk/computing/) supervised by [Yingzhen Li](http://yingzhenli.net/home/en/) and [Yves-Alexandre de Montjoye](http://www.demontjoye.com/) specializing in Applied Machine Learning. Before joining Imperial, I earned a Master of Engineering degree in AI and ML from the [University of California, Los Angeles](https://www.ucla.edu/), and an Honours Bachelor of Science in Computer Science, Statistics and Economics at the [University of Toronto](https://www.utoronto.ca/). I was also fortunate to be advised by [Rahul Krishnan](http://www.cs.toronto.edu/~rahulgk/index.html) at the [Vector Institute](https://vectorinstitute.ai/) and [Jonathan Kao](http://seas.ucla.edu/~kao/) at UCLA where I researched novel machine learning architectures through deep generative modeling.
 
-Anyone interested in working on machine learning applications, feel free to contact me by email!
+Anyone interested in machine learning research, feel free to contact me by email!
 
 Email:
 
