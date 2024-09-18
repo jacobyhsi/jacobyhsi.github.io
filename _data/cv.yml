@@ -44,21 +44,19 @@
     - year: 2020, 2021, 2022
       items:
         - University of Toronto Howard Ferguson Scholarship
-        
+
 - title: Teaching
   type: time_table
   contents:
     - title: Graduate Teaching Assistant
-          institution: >
-            <a href="https://www.imperial.ac.uk/computing/current-students/courses/70050/">CS70050: Introduction to Machine Learning</a>, Imperial College London
-          year: 2024
-    - title: Graduate Teaching Assistant
-      institution: >
-        <a href="https://www.imperial.ac.uk/computing/current-students/courses/40009/">CS4009: Computing Practical 1</a>, Imperial College London
-      year: 2024
+      institution: Imperial College London
+      year: 2024 - Present
+      description:
+        - <a href="https://www.imperial.ac.uk/computing/current-students/courses/70050/">CS70050: Introduction to Machine Learning</a>.
+        - <a href="https://www.imperial.ac.uk/computing/current-students/courses/40009/">CS4009: Computing Practical 1</a>
 
 - title: Professional Services
   type: list
   contents:
-    - <strong>Conference Reviewer:</strong> NeurIPS (2024)
+    - <strong>Conference Reviewer:</strong> NeurIPS (2024) ICLR (2024)
 
