@@ -49,9 +49,13 @@
   type: time_table
   contents:
     - title: Graduate Teaching Assistant
+          institution: >
+            <a href="https://www.imperial.ac.uk/computing/current-students/courses/70050/">CS70050: Introduction to Machine Learning</a>, Imperial College London
+          year: 2024
+    - title: Graduate Teaching Assistant
       institution: >
         <a href="https://www.imperial.ac.uk/computing/current-students/courses/40009/">CS4009: Computing Practical 1</a>, Imperial College London
-      year: Winter 2024
+      year: 2024
 
 - title: Professional Services
   type: list
