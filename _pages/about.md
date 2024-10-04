@@ -19,7 +19,7 @@ I am a Computer Science PhD student at [Imperial College London](https://www.imp
 
 Before joining Imperial, I earned an M.Eng. in Artificial Intelligence from the [University of California, Los Angeles](https://www.ucla.edu/), and an H.BSc. in CS, Stats, and Econs at the [University of Toronto](https://www.utoronto.ca/). I was also fortunate to be advised by [Rahul Krishnan](http://www.cs.toronto.edu/~rahulgk/index.html) at the [Vector Institute](https://vectorinstitute.ai/), and [Jonathan Kao](https://seas.ucla.edu/~kao/people_dir/jonathan_kao.html) at UCLA where I researched novel machine learning architectures through deep generative modeling.
 
-Anyone interested in machine learning research, feel free to contact me by email!
+If you are a student interested in research or would like to collaborate, please email me!
 
 Email:
 
