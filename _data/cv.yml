@@ -5,17 +5,17 @@
       institution: Imperial College London
       year: 2023
       description:
-        - Advised by <a href="http://yingzhenli.net/home/en/">Yingzhen Li</a> & <a href="http://www.demontjoye.com/">Yves-Alexandre de Montjoye</a>.
+        - Advised by <a href="http://yingzhenli.net/home/en/">Yingzhen Li</a> & <a href="http://www.demontjoye.com/">Yves-Alexandre de Montjoye</a>
     - title: M.Eng in AI and ML
       institution: University of California, Los Angeles
       year: 2022
       description:
-        - Advised by <a href="https://seas.ucla.edu/~kao/people_dir/jonathan_kao.html">Jonathan Kao</a>.
+        - Advised by <a href="https://seas.ucla.edu/~kao/people_dir/jonathan_kao.html">Jonathan Kao</a>
     - title: H.BSc in Computer Science, Statistics, and Economics
       institution: University of Toronto
       year: 2019
       description:
-        - Advised by <a href="https://www.cs.toronto.edu/~rahulgk/index.html">Rahul Krishnan</a>.
+        - Advised by <a href="https://www.cs.toronto.edu/~rahulgk/index.html">Rahul Krishnan</a>
 
 - title: Experience
   type: time_table
@@ -24,19 +24,19 @@
       institution: Vector Institute, Machine Learning and Computational Healthcare Lab 
       year: 2022 - Present
       description:
-        - Hosted by Rahul Krishnan.
+        - Hosted by <a href="https://www.cs.toronto.edu/~rahulgk/index.html">Rahul Krishnan</a>
         
     - title: Researcher
       institution: Henry Samueli School of Engineering and Applied Science, Neural Engineering and Computation Lab
       year: 2023 - 2024
       description:
-        - Hosted by Jonathan Kao.
+        - Hosted by <a href="https://seas.ucla.edu/~kao/people_dir/jonathan_kao.html">Jonathan Kao</a>
 
     - title: Researcher
       institution: Harvard Medical School, Massachusetts General Hospital and UCLA
       year: Summer 2023
       description:
-        - Hosted by <a href="https://researchers.mgh.harvard.edu/profile/14171938/Oleg-Pianykh">Oleg Pianykh</a>.
+        - Hosted by <a href="https://researchers.mgh.harvard.edu/profile/14171938/Oleg-Pianykh">Oleg Pianykh</a>
 
 - title: Honors and Awards
   type: time_table
@@ -52,11 +52,12 @@
       institution: Imperial College London
       year: 2024 - Present
       description:
+        - "<a href=\"https://www.imperial.ac.uk/computing/current-students/courses/70010/\">CS70010: Deep Learning</a>"
         - "<a href=\"https://www.imperial.ac.uk/computing/current-students/courses/70050/\">CS70050: Introduction to Machine Learning</a>"
         - "<a href=\"https://www.imperial.ac.uk/computing/current-students/courses/40009/\">CS4009: Computing Practical 1</a>"
 
 - title: Professional Services
   type: list
   contents:
-    - <strong>Conference Reviewer:</strong> NeurIPS (2024), ICLR (2025)
+    - <strong>Conference Reviewer:</strong> NeurIPS, ICLR, ICML
 
