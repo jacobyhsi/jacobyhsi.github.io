@@ -26,9 +26,9 @@
 #   - firstname: ["Mike"]
 #     url: https://mikequ1.github.io/
 
-# "Alexander":
-#   - firstname: ["Rohan"]
-#     url: https://rohanalexander.com/
+"Alexander":
+  - firstname: ["Rohan"]
+    url: https://rohanalexander.com/
 
 # "Xiang":
 #   - firstname: ["Zhengrui"]
@@ -46,6 +46,6 @@
 #   - firstname: ["Wenlong"]
 #     url: https://chenw20.github.io/wenlongchen.github.io//
 
-# "Faisal":
-#   - firstname: ["Aldo"]
-#     url: https://faisallab.org/members/aldo-faisal
+"Faisal":
+  - firstname: ["Aldo"]
+    url: https://faisallab.org/members/aldo-faisal
