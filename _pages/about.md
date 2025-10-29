@@ -17,6 +17,8 @@ social: true  # includes social icons at the bottom of the page
 
 Hi! I am a Computer Science PhD student at [Imperial College London](https://www.imperial.ac.uk/computing/) advised by [Yingzhen Li](http://yingzhenli.net/home/en/). My recent research interests have been in variational inference, generative models and LLMs.
 
+Currently, I am a Research Scientist Intern at Samsung AI Research, where I am working with [Junyi Zhu](https://junyizhu-ai.github.io/) and [Taha Ceritli](https://tahaceritli.github.io/)
+
 Before joining Imperial, I earned an MEng from the [University of California, Los Angeles](https://www.ucla.edu/), and an HBSc at the [University of Toronto](https://www.utoronto.ca/). I was fortunate to be advised by [Rahul Krishnan](http://www.cs.toronto.edu/~rahulgk/index.html) at the [Vector Institute](https://vectorinstitute.ai/), and [Jonathan Kao](https://seas.ucla.edu/~kao/people_dir/jonathan_kao.html) at [UCLA SEAS](https://samueli.ucla.edu/). Lastly, I am grateful to my instructors, [Jimmy Ba](https://jimmylba.github.io/) and [David Duvenaud](https://www.cs.toronto.edu/~duvenaud/), for sparking my initial interest in machine learning.
 
 If you are interested in research or would like to collaborate, please feel free email me!
