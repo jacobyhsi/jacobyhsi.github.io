@@ -39,10 +39,10 @@
 }
 
 @inproceedings{tabrag,
-  title={TabRAG: Tabular Document Retrieval via Structured Language Representations},
+  title={TabRAG: Improving Tabular Document Question Answering for Retrieval Augmented Generation via Structured Representations},
   author={Si*, Jacob and Qu*, Mike and Lee, Michelle and Li, Yingzhen},
   booktitle={the 39th Conference on Neural Information Processing System, AI for Tabular Data Workshop, 2025.},
-  abstract={Ingesting data for Retrieval-Augmented Generation (RAG) involves either fine-tuning the embedding model directly on the target corpus or parsing documents for embedding model encoding. The former, while accurate, incurs high computational hardware requirements, while the latter suffers from suboptimal performance when extracting tabular data. In this work, we address the latter by presenting TabRAG, a parsing-based RAG pipeline designed to tackle table-heavy documents via structured language representations. TabRAG outperforms existing popular parsing-based methods for generation and retrieval.},
+  abstract={Incorporating external knowledge bases in traditional retrieval-augmented generation (RAG) relies on parsing the document, followed by querying a language model with the parsed information via in-context learning. While effective for text-based documents, question answering on tabular documents often fails to generate plausible responses. Standard parsing techniques lose the two-dimensional structural semantics critical for cell interpretation. In this work, we present TabRAG, a parsing-based RAG framework designed to improve tabular document question answering via structured representations. Our framework consists of layout segmentation that decomposes the document inputs into a series of components, enabling fine-grained extraction. Subsequently, a vision language model parses and extracts the document tables into a hierarchically structured representation. In order to cater various table styles and formats, we integrate a self-generated in-context learning module that guides the table extraction process. Experimental results demonstrate that TabRAG outperforms existing popular parsing techniques across a broad suite of evaluation and ablation benchmarks.},
   year={2026},
   abbr={NeurIPS AI4Tab},
   pdf={http://arxiv.org/abs/2511.06582},
