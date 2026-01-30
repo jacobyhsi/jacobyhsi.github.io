@@ -10,6 +10,10 @@
   - firstname: ["Rahul"]
     url: https://www.cs.toronto.edu/~rahulgk/index.html
 
+"Rei":
+  - firstname: ["Marek"]
+    url: https://www.marekrei.com/
+
 # "Cooper":
 #   - firstname: ["Michael"]
 #     url: https://michaeljohncooper.com/
@@ -49,3 +53,4 @@
 "Faisal":
   - firstname: ["Aldo"]
     url: https://faisallab.org/members/aldo-faisal
+
