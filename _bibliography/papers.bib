@@ -1,5 +1,41 @@
 ---
 ---
+
+@inproceedings{vmpo,
+  title={Diffusion Alignment Beyond KL: Variance Minimisation as Effective Policy Optimiser},
+  author={Ou, Zijing and Si, Jacob and Zhu, Junyi and Bohdal, Ondrej and Ozay, Mete and Ceritli, Taha and Li, Yingzhen},
+  booktitle={the 14th International Conference on Learning Representations, ReALM-GEN Workshop, 2026.},
+  abstract={Diffusion alignment adapts pretrained diffusion models to sample from reward-tilted distributions along the denoising trajectory. This process naturally admits a Sequential Monte Carlo (SMC) interpretation, where the denoising model acts as a proposal and reward guidance induces importance weights. Motivated by this view, we introduce Variance Minimisation Policy Optimisation (VMPO), which formulates diffusion alignment as minimising the variance of log importance weights rather than directly optimising a Kullback-Leibler (KL) based objective. We prove that the variance objective is minimised by the reward-tilted target distribution and that, under on-policy sampling, its gradient coincides with that of standard KL-based alignment. This perspective offers a common lens for understanding diffusion alignment. Under different choices of potential functions and variance minimisation strategies, VMPO recovers various existing methods, while also suggesting new design directions beyond KL.},
+  year={2026},
+  abbr={Workshop},
+  pdf={https://arxiv.org/abs/2602.12229},
+  selected={true}
+}
+
+@inproceedings{tabrag,
+  title={TabRAG: Improving Tabular Document Question Answering for Retrieval Augmented Generation via Structured Representations},
+  author={Si*, Jacob and Qu*, Mike and Lee, Michelle and Rei, Marek and Li, Yingzhen},
+  booktitle={the 39th Conference on Neural Information Processing System, AI for Tabular Data Workshop, 2025.},
+  abstract={Incorporating external knowledge bases in traditional retrieval-augmented generation (RAG) relies on parsing the document, followed by querying a language model with the parsed information via in-context learning. While effective for text-based documents, question answering on tabular documents often fails to generate plausible responses. Standard parsing techniques lose the two-dimensional structural semantics critical for cell interpretation. In this work, we present TabRAG, a parsing-based RAG framework designed to improve tabular document question answering via structured representations. Our framework consists of layout segmentation that decomposes the document inputs into a series of components, enabling fine-grained extraction. Subsequently, a vision language model parses and extracts the document tables into a hierarchically structured representation. In order to cater various table styles and formats, we integrate a self-generated in-context learning module that guides the table extraction process. Experimental results demonstrate that TabRAG outperforms existing popular parsing techniques across a broad suite of evaluation and ablation benchmarks.},
+  year={2026},
+  abbr={Workshop},
+  pdf={http://arxiv.org/abs/2511.06582},
+  code={https://github.com/jacobyhsi/TabRAG},
+  selected={true}
+}
+
+@inproceedings{si2025tabrep,
+  title={TabRep: Training Tabular Diffusion Models with a Simple and Effective Continuous Representation},
+  author={Si, Jacob and Ou*, Zijing and Qu*, Mike and Xiang*, Zhengrui and Li, Yingzhen},
+  booktitle={the Transactions on Machine Learning Research, 2026.},
+  abstract={Diffusion models have been the predominant generative model for tabular data generation. However, they face the conundrum of modeling under a separate versus a unified data representation. The former encounters the challenge of jointly modeling all multi-modal distributions of tabular data in one model. While the latter alleviates this by learning a single representation for all features, it currently leverages sparse suboptimal encoding heuristics and necessitates additional computation costs. In this work, we address the latter by presenting TabRep, a tabular diffusion architecture trained with a unified continuous representation. To motivate the design of our representation, we provide geometric insights into how the data manifold affects diffusion models. The key attributes of our representation are composed of its density, flexibility to provide ample separability for nominal features, and ability to preserve intrinsic relationships. Ultimately, TabRep provides a simple yet effective approach for training tabular diffusion models under a continuous data manifold. Our results showcase that TabRep achieves superior performance across a broad suite of evaluations. It is the first to synthesize tabular data that exceeds the downstream quality of the original datasets while preserving privacy and remaining computationally efficient.},
+  year={2025},
+  abbr={TMLR},
+  pdf={https://arxiv.org/abs/2504.04798},
+  code={https://github.com/jacobyhsi/TabRep},
+  selected={true}
+}
+
 @inproceedings{vud,
   title={Variational Uncertainty Decomposition for In-Context Learning},
   author={Jayasekera*, I. Shavindra and Si*, Jacob and Valdettaro, Filippo and Chen, Wenlong and Faisal, Aldo and Li, Yingzhen},
@@ -23,41 +59,6 @@
   award={Spotlight},
   pdf={https://arxiv.org/abs/2406.00426},
   code={https://github.com/jacobyhsi/InterpreTabNet},
-  selected={true}
-}
-
-@inproceedings{si2025tabrep,
-  title={TabRep: Training Tabular Diffusion Models with a Simple and Effective Continuous Representation},
-  author={Si, Jacob and Ou*, Zijing and Qu*, Mike and Xiang*, Zhengrui and Li, Yingzhen},
-  booktitle={the Transactions on Machine Learning Research, 2026.},
-  abstract={Diffusion models have been the predominant generative model for tabular data generation. However, they face the conundrum of modeling under a separate versus a unified data representation. The former encounters the challenge of jointly modeling all multi-modal distributions of tabular data in one model. While the latter alleviates this by learning a single representation for all features, it currently leverages sparse suboptimal encoding heuristics and necessitates additional computation costs. In this work, we address the latter by presenting TabRep, a tabular diffusion architecture trained with a unified continuous representation. To motivate the design of our representation, we provide geometric insights into how the data manifold affects diffusion models. The key attributes of our representation are composed of its density, flexibility to provide ample separability for nominal features, and ability to preserve intrinsic relationships. Ultimately, TabRep provides a simple yet effective approach for training tabular diffusion models under a continuous data manifold. Our results showcase that TabRep achieves superior performance across a broad suite of evaluations. It is the first to synthesize tabular data that exceeds the downstream quality of the original datasets while preserving privacy and remaining computationally efficient.},
-  year={2025},
-  abbr={TMLR},
-  pdf={https://arxiv.org/abs/2504.04798},
-  code={https://github.com/jacobyhsi/TabRep},
-  selected={true}
-}
-
-@inproceedings{tabrag,
-  title={TabRAG: Improving Tabular Document Question Answering for Retrieval Augmented Generation via Structured Representations},
-  author={Si*, Jacob and Qu*, Mike and Lee, Michelle and Rei, Marek and Li, Yingzhen},
-  booktitle={the 39th Conference on Neural Information Processing System, AI for Tabular Data Workshop, 2025.},
-  abstract={Incorporating external knowledge bases in traditional retrieval-augmented generation (RAG) relies on parsing the document, followed by querying a language model with the parsed information via in-context learning. While effective for text-based documents, question answering on tabular documents often fails to generate plausible responses. Standard parsing techniques lose the two-dimensional structural semantics critical for cell interpretation. In this work, we present TabRAG, a parsing-based RAG framework designed to improve tabular document question answering via structured representations. Our framework consists of layout segmentation that decomposes the document inputs into a series of components, enabling fine-grained extraction. Subsequently, a vision language model parses and extracts the document tables into a hierarchically structured representation. In order to cater various table styles and formats, we integrate a self-generated in-context learning module that guides the table extraction process. Experimental results demonstrate that TabRAG outperforms existing popular parsing techniques across a broad suite of evaluation and ablation benchmarks.},
-  year={2026},
-  abbr={Workshop},
-  pdf={http://arxiv.org/abs/2511.06582},
-  code={https://github.com/jacobyhsi/TabRAG},
-  selected={true}
-}
-
-@inproceedings{vmpo,
-  title={Diffusion Alignment Beyond KL: Variance Minimisation as Effective Policy Optimiser},
-  author={Ou, Zijing and Si, Jacob and Zhu, Junyi and Bohdal, Ondrej and Ozay, Mete and Ceritli, Taha and Li, Yingzhen},
-  booktitle={the 14th International Conference on Learning Representations, ReALM-GEN Workshop, 2026.},
-  abstract={Diffusion alignment adapts pretrained diffusion models to sample from reward-tilted distributions along the denoising trajectory. This process naturally admits a Sequential Monte Carlo (SMC) interpretation, where the denoising model acts as a proposal and reward guidance induces importance weights. Motivated by this view, we introduce Variance Minimisation Policy Optimisation (VMPO), which formulates diffusion alignment as minimising the variance of log importance weights rather than directly optimising a Kullback-Leibler (KL) based objective. We prove that the variance objective is minimised by the reward-tilted target distribution and that, under on-policy sampling, its gradient coincides with that of standard KL-based alignment. This perspective offers a common lens for understanding diffusion alignment. Under different choices of potential functions and variance minimisation strategies, VMPO recovers various existing methods, while also suggesting new design directions beyond KL.},
-  year={2026},
-  abbr={Workshop},
-  pdf={https://arxiv.org/abs/2602.12229},
   selected={true}
 }
 
